@@ -1,6 +1,8 @@
 [submodule "tsundoku-backend"]
 	path = tsundoku-backend
 	url = https://github.com/reckyy/tsundoku-backend.git
+	branch = main
 [submodule "tsundoku-frontend"]
 	path = tsundoku-frontend
 	url = https://github.com/reckyy/tsundoku-frontend.git
+	branch = main
