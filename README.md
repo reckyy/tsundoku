@@ -26,12 +26,12 @@ https://tsundoku.tech
 
 ## 使用技術
 ### フロントエンド
-<img src='https://img.shields.io/badge/Next.js-696969.svg?logo=nextdotjs'>
-<img src='https://img.shields.io/badge/React-696969.svg?logo=react'>
-<img src='https://img.shields.io/badge/Typescript-696969.svg?logo=typescript'>
-<img src='https://img.shields.io/badge/Storybook-696969.svg?logo=storybook'>
-<img src='https://img.shields.io/badge/Mantine-696969.svg?logo=mantine'>
-<img src='https://img.shields.io/badge/Auth.js-696969.svg?logo='>  
+![Next.js](https://img.shields.io/badge/Next.js-696969.svg?logo=nextdotjs)
+![React](https://img.shields.io/badge/React-696969.svg?logo=react)
+![Typescript](https://img.shields.io/badge/Typescript-696969.svg?logo=typescript)
+![Storybook](https://img.shields.io/badge/Storybook-696969.svg?logo=storybook)
+![Mantine](https://img.shields.io/badge/Mantine-696969.svg?logo=mantine)
+![Auth.js](https://img.shields.io/badge/Auth.js-696969.svg?logo=)
 
 - Next.js 14.2.3
 - React 18
@@ -41,13 +41,13 @@ https://tsundoku.tech
 - Auth.js 5.0.0
 
 ### バックエンド
-<img src='https://img.shields.io/badge/Ruby on Rails-696969.svg?logo=rubyonrails'>
-<img src='https://img.shields.io/badge/Ruby-3.3.1-696969.svg?logo=ruby'>
-<img src='https://img.shields.io/badge/Rubocop-1.64.0-696969.svg?logo=rubocop'>
-<img src='https://img.shields.io/badge/Rspec-3.13.0-696969.svg?logo=rspec'>
-<img src='https://img.shields.io/badge/Postgresql-1.5.6-696969.svg?logo=postgresql'>
-<img src='https://img.shields.io/badge/Factorybot-6.4.6-696969.svg?logo='>
-<img src='https://img.shields.io/badge/Simplecov-0.22.0-696969.svg?logo='>
+![Rails](https://img.shields.io/badge/RubyonRails-696969.svg?logo=rubyonrails)
+![Ruby](https://img.shields.io/badge/Ruby-3.3.1-696969.svg?logo=ruby)
+![Rubocop](https://img.shields.io/badge/Rubocop-1.64.0-696969.svg?logo=rubocop)
+![Rspec](https://img.shields.io/badge/Rspec-3.13.0-696969.svg?logo=rspec)
+![Postgresql](https://img.shields.io/badge/Postgresql-1.5.6-696969.svg?logo=postgresql)
+![Factorybot](https://img.shields.io/badge/Factorybot-6.4.6-696969.svg?logo=)
+![Simplecov](https://img.shields.io/badge/Simplecov-0.22.0-696969.svg?logo=)
 
 - Rails7.1.3.3 
 - Ruby 3.3.1
