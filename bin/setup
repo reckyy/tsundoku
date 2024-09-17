@@ -1,0 +1,17 @@
+set -e
+
+echo 'Setting up the backend...'
+cd tsundoku-backend
+bundle install
+
+echo 'Prepare DB...'
+bin/rails db:prepare
+
+cd ..
+
+echo 'Setting up the frontend...'
+cd tsundoku-frontend
+npm install
+
+echo 'Setup complete.'
+cd ..

@@ -1,0 +1,11 @@
+set -e
+
+echo "Starting backend server..."
+cd tsundoku-backend
+bin/rails s &
+
+echo "Starting frontend server..."
+cd ../tsundoku-frontend
+npm run dev &
+
+wait
