@@ -6,6 +6,7 @@ bundle install
 
 echo 'Prepare DB...'
 bin/rails db:prepare
+bin/rails db:seed
 
 cd ..
 
