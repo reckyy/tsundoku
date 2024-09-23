@@ -39,7 +39,7 @@ Tsundokuは「読書はしたいけれど、つい先延ばしにしてしまう
 - React 18
 - Typescript 5
 - Storybook 8.1.9
-- Mantine 7.11.0
+- Mantine 7.12.2
 - Auth.js 5.0.0
 
 ### バックエンド
@@ -52,12 +52,12 @@ Tsundokuは「読書はしたいけれど、つい先延ばしにしてしまう
 ![Factorybot](https://img.shields.io/badge/Factorybot-6.4.6-696969.svg?logo=)
 ![Simplecov](https://img.shields.io/badge/Simplecov-0.22.0-696969.svg?logo=)
 
-- Rails7.1.3.3
-- Ruby 3.3.1
-- Rubocop 1.64.0
-- Rspec 3.13.0
+- Rails7.2.1
+- Ruby 3.3.5
+- Rubocop 1.66.1
+- Rspec 3.13.1
 - Postgresql 1.5.6
-- Factorybot 6.4.6
+- Factorybot 6.5.0
 - Simplecov 0.22.0
 
 ## 起動方法
