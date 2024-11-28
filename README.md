@@ -18,7 +18,8 @@ Tsundokuは「読書はしたいけれど、つい先延ばしにしてしまう
 | 本を検索 | 読書メモを取る | 読書ログを公開 |
 | ---- | ---- |  ---- |
 | 本を検索して、登録します。 | 本ごとにメモを取り、読書ログをつけます。 | 読書した本やログは公開できます。 |
-| [![Image from Gyazo](https://i.gyazo.com/1c47d9f16c328a7f9908ba4de1492b40.gif)](https://gyazo.com/1c47d9f16c328a7f9908ba4de1492b40) | [![Image from Gyazo](https://i.gyazo.com/723d9ab170b2dd555b133614bd4c08c9.gif)](https://gyazo.com/723d9ab170b2dd555b133614bd4c08c9) | [![Image from Gyazo](https://i.gyazo.com/4729da63da9649d1a6c027a7a690c81c.jpg)](https://gyazo.com/4729da63da9649d1a6c027a7a690c81c) |
+| [![Image from Gyazo](https://i.gyazo.com/1a17a29e784994d7703c24620eca2d54.gif)](https://gyazo.com/1a17a29e784994d7703c24620eca2d54)| [![Image from Gyazo](https://i.gyazo.com/238d80b466672ff5a87e0cbae4f5a7a6.gif)](https://gyazo.com/238d80b466672ff5a87e0cbae4f5a7a6)| [![Image from Gyazo](https://i.gyazo.com/3c0ed8f17b3d992d5cfb00bd780dcd9a.jpg)](https://gyazo.com/3c0ed8f17b3d992d5cfb00bd780dcd9a) |
+
 
 
 ## 使用技術
