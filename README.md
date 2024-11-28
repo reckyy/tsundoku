@@ -15,14 +15,11 @@ Tsundokuは「読書はしたいけれど、つい先延ばしにしてしまう
 ユーザーは、読む本を登録し、章ごとにメモを取ることで読書ログをつけることができます。メモを取った日は自動的にログが記録され、読んだ本の一覧表示や、GitHubのContributionグラフのように視覚的に読書習慣を確認できます。また、読書ログを外部に公開してアピールすることも可能で、これにより読書習慣の維持と促進が期待できます。
 
 ### 使用方法
-1. 読む本を登録します。
-2. 章ごとに読書メモを取ります。
-3. メモを取った日は、自動的に読書ログが記録されます。
+| 本を検索 | 読書メモを取る | 読書ログを公開 |
+| ---- | ---- |  ---- |
+| 本を検索して、登録します。 | 本ごとにメモを取り、読書ログをつけます。 | 読書した本やログは公開できます。 |
+| [![Image from Gyazo](https://i.gyazo.com/1c47d9f16c328a7f9908ba4de1492b40.gif)](https://gyazo.com/1c47d9f16c328a7f9908ba4de1492b40) | [![Image from Gyazo](https://i.gyazo.com/723d9ab170b2dd555b133614bd4c08c9.gif)](https://gyazo.com/723d9ab170b2dd555b133614bd4c08c9) | [![Image from Gyazo](https://i.gyazo.com/4729da63da9649d1a6c027a7a690c81c.jpg)](https://gyazo.com/4729da63da9649d1a6c027a7a690c81c) |
 
-| 本を検索                                                                                                                            | 読書メモを取る                                                                                                                      | 読書ログを公開                                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 本を検索して、登録することができます。                                                                                              | 本ごとにメモを取ることができます。                                                                                                  | 読書した本やログは公開することができます。                                                                                          |
-| [![Image from Gyazo](https://i.gyazo.com/40784b5839854e435a8fd362ceb45d2a.gif)](https://gyazo.com/40784b5839854e435a8fd362ceb45d2a) | [![Image from Gyazo](https://i.gyazo.com/b3f97f2a78c4eb50d6968f5d855b52c2.gif)](https://gyazo.com/b3f97f2a78c4eb50d6968f5d855b52c2) | [![Image from Gyazo](https://i.gyazo.com/4729da63da9649d1a6c027a7a690c81c.jpg)](https://gyazo.com/4729da63da9649d1a6c027a7a690c81c) |
 
 ## 使用技術
 
@@ -35,9 +32,9 @@ Tsundokuは「読書はしたいけれど、つい先延ばしにしてしまう
 ![Mantine](https://img.shields.io/badge/Mantine-696969.svg?logo=mantine)
 ![Auth.js](https://img.shields.io/badge/Auth.js-696969.svg?logo=)
 
-- Next.js 14.2.3
+- Next.js App Router 14.2.3
 - React 18
-- Typescript 5
+- TypeScript 5
 - Storybook 8.1.9
 - Mantine 7.12.2
 - Auth.js 5.0.0
@@ -52,13 +49,13 @@ Tsundokuは「読書はしたいけれど、つい先延ばしにしてしまう
 ![Factorybot](https://img.shields.io/badge/Factorybot-6.4.6-696969.svg?logo=)
 ![Simplecov](https://img.shields.io/badge/Simplecov-0.22.0-696969.svg?logo=)
 
-- Rails7.2.1
+- Ruby on Rails7.2.1
 - Ruby 3.3.5
-- Rubocop 1.66.1
-- Rspec 3.13.1
-- Postgresql 1.5.6
-- Factorybot 6.5.0
-- Simplecov 0.22.0
+- RuboCop 1.66.1
+- RSpec 3.13.1
+- PostgreSQL
+- FactoryBot 6.5.0
+- SimpleCov 0.22.0
 
 ## 起動方法
 
