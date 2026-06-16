@@ -1,3 +1,23 @@
+## [1.2.0] - 2026-06-16
+### Added
+- 想定外エラー時のフォールバック表示を追加
+- CIにセキュリティスキャン（backend）とStorybook test-runner（frontend）を追加
+
+### Changed
+- backendのRubyを4.0.5へ更新（Heroku-26対応）、puma等の依存を更新
+- フロントのAPI通信をaxiosからnative fetchへ全面移行
+- ログイン時の本人識別をIDトークンのクレームに基づくよう変更（送信もIDトークンのみに）
+- エラーハンドリング/セッション管理を集約・統一、本フィルタUIをSegmentedControlに整理、未使用dndライブラリを削除
+- CORSを環境ごとに設定、非推奨の`:unprocessable_entity`を`:unprocessable_content`へ更新
+- READMEを現行スタック・環境変数・テスト手順に更新
+
+### Fixed
+- N+1クエリを解消
+- ボタンの二重送信を防止
+- UserMenuの相対パス参照による404、middlewareのusers判定の正規表現を修正
+- 未ログイン時のTopLoading表示、Headerの非null前提など複数の不具合を修正
+- net-imapの脆弱性（CVE）に対応
+
 ## [1.1.4] - 2026-05-10
 ### Fixed
 - 章タイトル/メモ保存の部分失敗が「成功」と表示され、サーバに未反映のまま後で巻き戻るデータロスを修正
