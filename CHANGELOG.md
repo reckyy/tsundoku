@@ -1,3 +1,19 @@
+## [1.3.0] - 2026-07-12
+### Added
+- 未認証リダイレクト時にトーストで通知を表示
+- APIエラー時に原因切り分け用のerrorボディを返却し、フロントでもstatus/bodyを保持するように
+
+### Changed
+- 本の並び順(acts_as_list)をステータスごとのスコープで管理するように
+- フロントのAPI通信ロジックをclient/serverで共通化、PATCHリクエストの冗長なパラメータを削除
+- RuboCopのTargetRubyVersionを実Ruby(4.0)に合わせ、新有効化されたcopの違反を修正
+- READMEにバックエンドの環境変数(SECRET_KEY_BASE/AUDIENCE/ISSUER)の設定手順を追記
+
+### Fixed
+- Bookモデルにauthor/cover_image_urlのpresenceバリデーションを追加
+- ユーザーページのURLコピー成否判定をコピー完了時に行うよう修正
+- 脆弱性のある依存gem(nokogiri/concurrent-ruby/faraday/crass/websocket-driver)をCVE対応版へ更新
+
 ## [1.2.0] - 2026-06-16
 ### Added
 - 想定外エラー時のフォールバック表示を追加
