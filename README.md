@@ -93,6 +93,15 @@ RAKUTEN_API_APPLICATION_ID={RAKUTEN_APP_ID}
 RAKUTEN_API_ACCESS_KEY={RAKUTEN_ACCESS_KEY}
 ```
 
+続いて、`.tsundoku-backend`を作成し、以下の内容を追加してください。
+`SECRET_KEY_BASE`は`openssl rand -hex 64`などで生成したランダムな値を設定します。
+`AUDIENCE`にはGoogle OAuthのクライアントID（`AUTH_GOOGLE_ID`と同じ値）を設定します。
+```
+SECRET_KEY_BASE={YOUR_SECRET_KEY_BASE}
+AUDIENCE={CLIENT_ID}
+ISSUER='https://accounts.google.com'
+```
+
 ### セットアップ
 
 `bin/setup`
